@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    // Colors
+    --mobileAccent: #79a9f1;
+    --mobileBorder1: #572594;
+    --mobileBorder2: #E0E0E0;
+    --mobileIconColor: #4C73AE;
+    --paymentLinkBgColor: #95baf1;
+}
+
+@media only screen and (max-width: 719px) {
+    #desktopScreen {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    #mobileScreen {
+        display: none;
+    }
+}
+
+#mobileScreen {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.border-none {
+    border: none;
+}
+
+.outline-none {
+    outline: none;
+}
+
+.text-xs{
+    font-size: 0.85rem;
+}
+
+.text-sm{
+    font-size: 0.9rem;
+}
+
+.text-base{
+    font-size: 1rem;
+}
+
+.text-lg{
+    font-size: 1.5rem;
+}
+
+.icon{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.icon-success{
+    color: #572594;
+}
+
+.icon-failure{
+    color: red;
+}
+
+.bg-payment-link{
+    background-color: var(--paymentLinkBgColor);
+}
+
+.icon-copy{
+    height: 15px;
+    width: auto;
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+
+.icon-copy-payment {
+    color: black;
+}
+
+.icon-copy-transaction {
+    color: #6a9ede;
+}
